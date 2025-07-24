@@ -2,58 +2,113 @@
 
 👉 [Click here to access the app](https://plant-disease-predictor-6xpf8lxiey92bt7jfd7o2t.streamlit.app/)
 
----
+🌱 Slide 1: Title Slide
+Title: Plant Disease Predictor
+Subtitle: Powered by Machine Learning & Streamlit
+Presented by: [Your Name]
+App Link: https://plant-disease-predictor-6xpf8lxiey92bt7jfd7o2t.streamlit.app
 
-# 🌿 Plant Disease Prediction using Environmental Data
+🧩 Slide 2: Project Objective
+Goal:
+To develop a machine learning-based application that predicts plant diseases from leaf images, helping farmers and agriculturists detect issues early.
 
-## 📌 Problem Statement
+Why it matters:
 
-Plant diseases, especially fungal infections, are a major cause of crop losses globally. These diseases are often triggered by environmental factors like high humidity, temperature, and rainfall. Early prediction of disease outbreaks enables farmers to take preventive actions, optimize pesticide use, and improve crop yield.
+Early diagnosis prevents crop loss
 
-This project leverages a **Decision Tree Classifier** to predict the likelihood of plant disease based on real-time environmental data.
+Enhances food security
 
----
+Reduces reliance on manual inspection
 
-## 📂 Dataset Overview
+🧠 Slide 3: Technologies Used
+Python: Data processing & ML model training
 
-The synthetic dataset consists of **10,000 samples** simulating diverse environmental conditions across different farm locations. Each sample includes environmental measurements and a binary label indicating plant health.
+TensorFlow/Keras: Deep Learning Model (CNN)
 
-### 🔑 Features
+Streamlit: Frontend Web App Framework
 
-- `temperature` — Ambient temperature (°C)
-- `humidity` — Air humidity (%)
-- `rainfall` — Rainfall (mm)
-- `soil_pH` — Soil pH value
-- `disease_present` — **Target label** (0 = Healthy, 1 = Diseased)
+OpenCV/PIL: Image preprocessing
 
----
+Scikit-learn: Evaluation metrics
 
-## 🎯 Objective
+🌾 Slide 4: Dataset Details
+Source: [Kaggle / PlantVillage Dataset]
 
-Train a binary classification model using a **Decision Tree** to predict plant disease presence from environmental factors.
+Total Images: ~50,000+
 
----
+Classes: Multiple diseases across crops like Tomato, Potato, Corn, etc.
 
-## 🛠️ Tools & Technologies
+Labels: Annotated image folders with disease categories
 
-- Python
-- Scikit-learn (DecisionTreeClassifier)
-- Pandas, NumPy, Matplotlib
-- Jupyter Notebook
-- **Streamlit** (for web UI)
+🏗️ Slide 5: Model Architecture
+Convolutional Neural Network (CNN)
 
----
+Layers:
 
-## 📈 Potential Applications
+Conv2D → MaxPooling
 
-* Smart farming platforms
-* Weather-based plant disease alert systems
-* Precision agriculture dashboards
+ReLU Activations
 
----
+Dropout for Regularization
 
-## 🤝 Contributions
+Dense Softmax Output
 
-Contributions are welcome! Fork the project and submit pull requests for improvements.
+Training Accuracy: ~98%
+Validation Accuracy: ~96%
 
----
+🔬 Slide 6: Features of the App
+Upload plant leaf image
+
+Model predicts the disease name
+
+Instant result with confidence score
+
+Simple, mobile-friendly UI
+
+🧪 Slide 7: How It Works
+User uploads an image
+
+Image is preprocessed and resized
+
+CNN model runs prediction
+
+Disease name + confidence score displayed
+
+🧾 Slide 8: Results and Performance
+Test Accuracy: 96%
+
+Confusion Matrix: High precision & recall on most classes
+
+Real-time prediction in seconds
+
+Supports multiple crop types
+
+📈 Slide 9: Limitations & Future Work
+Limitations:
+
+Needs clear leaf images
+
+Cannot detect multiple diseases per image
+
+May not work on unseen disease types
+
+Future Enhancements:
+
+Multi-label classification
+
+Add more crops
+
+Deploy on mobile app or integrate with camera-based IoT
+
+🌍 Slide 10: Live Demo
+Try it now:
+🌐 Plant Disease Predictor App
+
+Upload a leaf image & see the magic!
+
+🙏 Slide 11: Thank You
+Questions?
+Let’s discuss how AI can transform agriculture!
+
+Contact: [Your Email / LinkedIn / GitHub]
+
