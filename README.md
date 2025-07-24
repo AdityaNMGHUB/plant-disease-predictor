@@ -2,56 +2,57 @@
 
 👉 [Click here to access the app](https://plant-disease-predictor-6xpf8lxiey92bt7jfd7o2t.streamlit.app/)
 
+-----
+
 🌱 Slide 1: Title Slide
 Title: Plant Disease Predictor
 Subtitle: Powered by Machine Learning & Streamlit
-Presented by: [Your Name]
-App Link: https://plant-disease-predictor-6xpf8lxiey92bt7jfd7o2t.streamlit.app
+Presented by: ADITYA NARAYAN MISHRA
+App Link: (https://plant-disease-predictor-6xpf8lxiey92bt7jfd7o2t.streamlit.app/)
 
 🧩 Slide 2: Project Objective
-Goal:
-To develop a machine learning-based application that predicts plant diseases from leaf images, helping farmers and agriculturists detect issues early.
+Goal: To develop a machine learning-based application that predicts plant diseases from leaf images, helping farmers and agriculturists detect issues early.
 
 Why it matters:
 
-Early diagnosis prevents crop loss
+1.Early diagnosis prevents crop loss
 
-Enhances food security
+2.Enhances food security
 
-Reduces reliance on manual inspection
+3.Reduces reliance on manual inspection
 
 🧠 Slide 3: Technologies Used
 Python: Data processing & ML model training
 
-TensorFlow/Keras: Deep Learning Model (CNN)
+1.TensorFlow/Keras: Deep Learning Model (CNN)
 
-Streamlit: Frontend Web App Framework
+2.Streamlit: Frontend Web App Framework
 
-OpenCV/PIL: Image preprocessing
+3.OpenCV/PIL: Image preprocessing
 
-Scikit-learn: Evaluation metrics
+4.Scikit-learn: Evaluation metrics
 
 🌾 Slide 4: Dataset Details
 Source: [Kaggle / PlantVillage Dataset]
 
-Total Images: ~50,000+
+1.Total Images: ~50,000+
 
-Classes: Multiple diseases across crops like Tomato, Potato, Corn, etc.
+2.Classes: Multiple diseases across crops like Tomato, Potato, Corn, etc.
 
-Labels: Annotated image folders with disease categories
+3.Labels: Annotated image folders with disease categories
 
 🏗️ Slide 5: Model Architecture
 Convolutional Neural Network (CNN)
 
 Layers:
 
-Conv2D → MaxPooling
+1.Conv2D → MaxPooling
 
-ReLU Activations
+2.ReLU Activations
 
-Dropout for Regularization
+3.Dropout for Regularization
 
-Dense Softmax Output
+4.Dense Softmax Output
 
 Training Accuracy: ~98%
 Validation Accuracy: ~96%
@@ -59,46 +60,46 @@ Validation Accuracy: ~96%
 🔬 Slide 6: Features of the App
 Upload plant leaf image
 
-Model predicts the disease name
+1.Model predicts the disease name
 
-Instant result with confidence score
+2.Instant result with confidence score
 
-Simple, mobile-friendly UI
+3.Simple, mobile-friendly UI
 
 🧪 Slide 7: How It Works
 User uploads an image
 
-Image is preprocessed and resized
+1.Image is preprocessed and resized
 
-CNN model runs prediction
+2.CNN model runs prediction
 
-Disease name + confidence score displayed
+3.Disease name + confidence score displayed
 
 🧾 Slide 8: Results and Performance
 Test Accuracy: 96%
 
-Confusion Matrix: High precision & recall on most classes
+1.Confusion Matrix: High precision & recall on most classes
 
-Real-time prediction in seconds
+2.Real-time prediction in seconds
 
-Supports multiple crop types
+3.Supports multiple crop types
 
 📈 Slide 9: Limitations & Future Work
 Limitations:
 
-Needs clear leaf images
+1.Needs clear leaf images
 
-Cannot detect multiple diseases per image
+2.Cannot detect multiple diseases per image
 
-May not work on unseen disease types
+3.May not work on unseen disease types
 
-Future Enhancements:
+4.Future Enhancements:
 
-Multi-label classification
+5.Multi-label classification
 
-Add more crops
+6.Add more crops
 
-Deploy on mobile app or integrate with camera-based IoT
+7.Deploy on mobile app or integrate with camera-based IoT
 
 🌍 Slide 10: Live Demo
 Try it now:
@@ -110,5 +111,5 @@ Upload a leaf image & see the magic!
 Questions?
 Let’s discuss how AI can transform agriculture!
 
-Contact: [Your Email / LinkedIn / GitHub]
+Contact: [mishraadityanarayan4@gmail.com]
 
